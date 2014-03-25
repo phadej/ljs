@@ -1,0 +1,10 @@
+.npmignore
+.gitignore
+.travis.yml
+.jshintrc
+
+CHANGELOG.md
+CONTRIBUTING.md
+related-work.md
+
+Makefile

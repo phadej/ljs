@@ -1,0 +1,50 @@
+{
+  "name": "ljs",
+  "description": "Generate docs from your source",
+  "version": "0.2.0",
+  "homepage": "https://github.com/phadej/ljs",
+  "author": {
+    "name": "Oleg Grenrus",
+    "email": "oleg.grenrus@iki.fi",
+    "url": "http://oleg.fi/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/phadej/ljs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phadej/ljs/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/phadej/ljs/blob/master/LICENSE"
+    }
+  ],
+  "main": "lib/literate.js",
+  "bin": {
+    "ljs": "./bin/ljs.js"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "devDependencies": {
+    "jshint": "~2.4.4"
+  },
+  "keywords": [
+    "literate",
+    "weave",
+    "programming",
+    "ljs",
+    "documentation"
+  ],
+  "dependencies": {
+    "esprima": "~1.0.4",
+    "optimist": "~0.6.0",
+    "glob": "~3.2.6",
+    "underscore": "~1.6.0"
+  }
+}
