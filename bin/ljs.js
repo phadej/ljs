@@ -4,10 +4,10 @@
 
   > Generate docs from your source
 
-  [![Build Status](https://travis-ci.org/phadej/grunt-literate.png)](https://travis-ci.org/phadej/ljs)
-  [![Code Climate](https://codeclimate.com/github/phadej/ljs.png)](https://codeclimate.com/github/phadej/ljs)
-  [![NPM version](https://badge.fury.io/js/ljs.png)](http://badge.fury.io/js/ljs)
-  [![Dependency Status](https://gemnasium.com/phadej/ljs.png)](https://gemnasium.com/phadej/ljs)
+  [![Build Status](https://travis-ci.org/phadej/grunt-literate.svg)](https://travis-ci.org/phadej/ljs)
+  [![NPM version](https://badge.fury.io/js/ljs.svg)](http://badge.fury.io/js/ljs)
+  [![Dependency Status](https://gemnasium.com/phadej/ljs.svg)](https://gemnasium.com/phadej/ljs)
+  [![Code Climate](https://img.shields.io/codeclimate/github/phadej/ljs.svg)](https://codeclimate.com/github/phadej/ljs)
 
   ## command line
   
