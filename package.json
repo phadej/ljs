@@ -26,13 +26,13 @@
     "ljs": "./bin/ljs.js"
   },
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 0.10.0"
   },
   "scripts": {
     "test": "make test"
   },
   "devDependencies": {
-    "jshint": "~2.4.4"
+    "jshint": "~2.5.1"
   },
   "keywords": [
     "literate",
@@ -42,9 +42,9 @@
     "documentation"
   ],
   "dependencies": {
-    "esprima": "~1.0.4",
+    "esprima": "~1.2.2",
     "optimist": "~0.6.0",
-    "glob": "~3.2.6",
+    "glob": "~4.0.2",
     "underscore": "~1.6.0"
   }
 }
