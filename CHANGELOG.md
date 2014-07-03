@@ -1,5 +1,6 @@
 ## Release History
 
+- 0.2.3 Strip only empty lines from beginning of code blocks
 - 0.2.2 Whitespace handling for included files
 - 0.2.1 Dependencies update
 - 0.2.0 Initial release
