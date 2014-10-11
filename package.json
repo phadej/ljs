@@ -33,6 +33,7 @@
   },
   "devDependencies": {
     "eslint": "^0.8.2",
+    "jscs": "^1.6.2",
     "jshint": "~2.5.1"
   },
   "keywords": [
