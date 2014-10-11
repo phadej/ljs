@@ -45,6 +45,6 @@
     "esprima": "~1.2.2",
     "commander": "~2.3.0",
     "glob": "~4.0.2",
-    "underscore": "~1.6.0"
+    "underscore": "~1.7.0"
   }
 }
