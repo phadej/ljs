@@ -10,7 +10,7 @@
   [![Code Climate](https://img.shields.io/codeclimate/github/phadej/ljs.svg)](https://codeclimate.com/github/phadej/ljs)
 
   ## command line
-  
+
   If `ljs` is installed globally,
   you can use `ljs` command line tool to process your literate javascript files
 
@@ -85,4 +85,6 @@ function cli(argv) {
 }
 
 var ret = cli(process.argv);
+/* eslint-disable no-process-exit */
 process.exit(ret);
+/* eslint-enable no-process-exit */

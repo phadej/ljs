@@ -1,14 +1,18 @@
-.PHONY : all test jsverify literate dist
+.PHONY : all test jshint eslint literate dist
 
 JSHINT=node_modules/.bin/jshint
+ESLINT=node_modules/.bin/eslint
 LJS=bin/ljs.js
 
 all : test
 
-test : jshint
+test : jshint eslint
 
 jshint : 
-	$(JSHINT) lib/*.js bin/*.js
+	$(JSHINT) lib bin
+
+eslint :
+	$(ESLINT) lib bin
 
 literate : 
 	 $(LJS) -c false -o README.md bin/ljs.js
