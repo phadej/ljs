@@ -21,7 +21,7 @@ jscs : $(JSCS)
 	$(JSCS) $(SRC)
 
 literate : 
-	 $(LJS) -c false -o README.md bin/ljs.js
+	 $(LJS) --no-code -o README.md bin/ljs.js
 
 dist : test literate
 	git clean -fdx -e node_modules

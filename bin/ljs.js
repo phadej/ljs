@@ -42,20 +42,11 @@ var literate = require("../lib/literate.js");
 
 var pkgJson = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "package.json")).toString());
 
-function toBool(x) {
-  if (x === "true") {
-    return true;
-  } else if (x === "false") {
-    return false;
-  } else {
-    return true;
-  }
-}
-
 program.usage("[options] file.js");
 program.version(pkgJson.version);
 program.option("-o, --output <file>", "Output file");
-program.option("-c, --code <switch>", "Include code in output file", toBool);
+program.option("--no-code", "Don't include code in the output file");
+program.option("--no-meld", "Don't meld consecutive line-breaks into single");
 
 function cli(argv) {
   program.parse(argv);
@@ -74,6 +65,11 @@ function cli(argv) {
   } catch (e) {
     console.error("Error: while literating -- " + e.message);
     return 1;
+  }
+
+  // Meld
+  if (program.meld) {
+    litContents = litContents.replace(/\n\n+/g, "\n\n");
   }
 
   // Output

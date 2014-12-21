@@ -25,7 +25,6 @@ You can also use *grunt-literate* as a normal library:
 var documentation = require("grunt-literate")("hello.js", { code: true });
 ```
 
-
 ## Release History
 
 - 0.2.5 Use eslint and jscs. Update underscore
@@ -48,7 +47,6 @@ Make a pull request, but don't commit `README.md`!
 This task could be abused to do literate programming.
 [Docco](http://jashkenas.github.io/docco/) is similar tool,
 however *ljs* is markup-language-agnostic.
-
 
 The MIT License (MIT)
 
