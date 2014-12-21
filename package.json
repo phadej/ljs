@@ -32,7 +32,7 @@
     "test": "make test"
   },
   "devDependencies": {
-    "eslint": "^0.8.2",
+    "eslint": "^0.10.2",
     "jscs": "^1.6.2",
     "jshint": "~2.5.1"
   },
@@ -45,8 +45,8 @@
   ],
   "dependencies": {
     "esprima": "~1.2.2",
-    "commander": "~2.3.0",
-    "glob": "~4.0.2",
+    "commander": "~2.5.1",
+    "glob": "~4.3.2",
     "underscore": "~1.7.0"
   }
 }
