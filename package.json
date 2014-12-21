@@ -1,7 +1,7 @@
 {
   "name": "ljs",
   "description": "Generate docs from your source",
-  "version": "0.2.5",
+  "version": "0.3.0",
   "homepage": "https://github.com/phadej/ljs",
   "author": {
     "name": "Oleg Grenrus",
@@ -46,7 +46,7 @@
   "dependencies": {
     "esprima": "~1.2.2",
     "commander": "~2.5.1",
-    "glob": "~4.3.2",
+    "glob": "~4.3.1",
     "underscore": "~1.7.0"
   }
 }
