@@ -10,7 +10,7 @@ SRC=lib bin
 
 all : test
 
-test : jshint eslint jscs
+test : jshint eslint jscs david
 
 jshint : 
 	$(JSHINT) $(SRC)
