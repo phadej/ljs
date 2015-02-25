@@ -1,8 +1,9 @@
-.PHONY : all test jshint eslint jscs literate dist
+.PHONY : all test jshint eslint jscs literate david dist
 
 JSHINT=node_modules/.bin/jshint
 ESLINT=node_modules/.bin/eslint
 JSCS=node_modules/.bin/jscs
+DAVID=node_modules/.bin/david
 LJS=bin/ljs.js
 
 SRC=lib bin
@@ -19,6 +20,9 @@ eslint :
 
 jscs : $(JSCS)
 	$(JSCS) $(SRC)
+
+david :
+	$(DAVID)
 
 literate : 
 	 $(LJS) --no-code -o README.md bin/ljs.js
