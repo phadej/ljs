@@ -1,5 +1,6 @@
 ## Release History
 
+- **0.3.1** &mdash; *2014-12-21* &mdash; Dependencies update
 - **0.3.0** &mdash; *2014-12-21* &mdash; `--no-code` &amp; `--no-meld`
 - **0.2.5** &mdash; *2014-10-11* &mdash; Use eslint and jscs. Update underscore
 - **0.2.4** &mdash; *2014-07-18* &mdash; Use commander
