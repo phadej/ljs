@@ -15,12 +15,7 @@
   "bugs": {
     "url": "https://github.com/phadej/ljs/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/phadej/ljs/blob/master/LICENSE"
-    }
-  ],
+  "license": "MIT",
   "main": "lib/literate.js",
   "bin": {
     "ljs": "./bin/ljs.js"
