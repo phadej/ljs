@@ -1,7 +1,7 @@
 {
   "name": "ljs",
   "description": "Generate docs from your source",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "homepage": "https://github.com/phadej/ljs",
   "author": {
     "name": "Oleg Grenrus",

@@ -27,6 +27,7 @@ var documentation = require("grunt-literate")("hello.js", { code: true });
 
 ## Release History
 
+- **0.3.2** &mdash; *2015-08-30* &mdash; Dependencies update
 - **0.3.1** &mdash; *2014-12-21* &mdash; Dependencies update
 - **0.3.0** &mdash; *2014-12-21* &mdash; `--no-code` &amp; `--no-meld`
 - **0.2.5** &mdash; *2014-10-11* &mdash; Use eslint and jscs. Update underscore
